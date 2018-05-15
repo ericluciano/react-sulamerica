@@ -156,12 +156,12 @@ class Promocao extends Component{
 
 
                 <div className="card-block">
-                  <h5 className="text-bold">{list.nome}</h5>
+                  <h5 className="text-bold">{list.nome} {list.informativa === 0 ? 'SE BTN' : 'COM BTN'}</h5>
                   <div dangerouslySetInnerHTML={{__html: list.texto}}>
                   </div>
                   <form role='form' name='form' id='form' onSubmit={handleSubmit(this.props.create)}>
                   {componentByType(list)}
-                  <If test={!list.informativa}>
+                  <If test={list.informativa === "0"}>
                     <button type='submit' className='btn btn-primary btn-md'>PARTICIPAR</button>
                   </If>
                   </form>
