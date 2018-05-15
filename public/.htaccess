@@ -1,4 +1,4 @@
-RewriteBase /projetos/react-mix/
+RewriteBase /projetos/react-sulamerica/
 RewriteRule ^index\.html$ - [L]
  RewriteCond %{REQUEST_FILENAME} !-f
  RewriteCond %{REQUEST_FILENAME} !-d
