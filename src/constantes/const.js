@@ -1,6 +1,6 @@
 export const BASENAME = '/'
 //export const BASENAME = '/'
-export const ROOT_URL = 'http://sulamericaparadiso.uol.com.br'
+export const ROOT_URL = 'https://sulamericaparadiso.uol.com.br'
 export const URL_BASE = `${ROOT_URL}/api`
 export const URL_PROMOCAO = `${URL_BASE}/promocoes`
 export const URL_LOGIN = `${URL_BASE}/login`
